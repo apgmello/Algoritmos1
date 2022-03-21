@@ -14,7 +14,7 @@ namespace ConsoleApp1
             @base = Convert.ToInt32(Console.ReadLine());
             Console.Write("digite o valor da altura: ");
             altura = Convert.ToInt32(Console.ReadLine());
-            resultado = @base * altura;
+            resultado = (@base * altura)/2;
             Console.Write("A área do triangulo é: ");
             Console.Write(resultado);
             Console.ReadKey();
