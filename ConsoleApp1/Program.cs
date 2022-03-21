@@ -94,7 +94,7 @@ namespace ConsoleApp1
                 {
                     Exercicio20();
                 }
-                else
+                else if (numeroExercicio > 20)
                 {
                     Console.WriteLine("Opção invalida");
                     Console.ReadKey();
